@@ -1,19 +1,24 @@
 # SpectraFlow downloads
 
-SpectraFlow is a desktop application for electron energy loss spectroscopy (EELS) analysis.
+SpectraFlow is a desktop application for electron energy loss spectroscopy (EELS) analysis, with a visual node workflow, spectral processing, fitting, maps and saved workspaces.
 
-## Availability
+## Windows laptop pilot
 
-The Windows desktop installer is being prepared for an invited pilot. **No installer has been released yet.**
+**[Download SpectraFlow 1.0.0 for Windows](https://github.com/cgadre4/spectraflow-releases/releases/download/v1.0.0/SpectraFlow-Setup-preview.exe)** — approximately 5.2 MB.
 
-Once a signed release is available, download `SpectraFlow-Setup.exe` from this repository's Releases. Double-click the installer to install, then use the SpectraFlow desktop or Start menu shortcut to launch the application.
+Double-click the installer, then launch SpectraFlow Preview from its desktop or Start menu shortcut. The installer scans hardware and downloads the selected CPU or supported Intel XPU runtime. You do not need Python, pip, Codex or development tools.
 
-The online installer will recommend a supported CPU, NVIDIA CUDA or Intel XPU runtime and download only the selected runtime. Internet access is required for installation. The initial pilot requires 64-bit Windows 11.
+- Windows 11 x64; internet required for installation and initial activation.
+- CPU and Intel XPU are included in this pilot; NVIDIA acceleration is not included in this build.
+- Signed publisher: **Chaitanya Gadre**, using Azure Artifact Signing.
+- An individually issued, hardware-bound activation key is required.
+- Optional automatic bug reporting uses a separately supplied pilot reporting code and sends sanitized reports, including recent actions, to a private repository.
+- Future published updates can prompt you to save work and restart.
+
+This is an initial pilot for installation and hardware testing. See the [release notes](https://github.com/cgadre4/spectraflow-releases/releases/tag/v1.0.0) for details. The other release assets are downloaded automatically; only download the installer yourself.
 
 ## About this repository
 
-This repository contains download information and binary release assets only. The application source and its development history are kept in a separate private repository. GitHub's automatically generated source archives contain this repository's documentation, not the application source.
+This repository contains download documentation and distribution binaries only. Application source and development history remain in a separate private repository. GitHub's automatically generated source archives contain this repository's documentation, not the application source.
 
-Pilot bug reports are private; please use the reporting instructions supplied with your invitation. Public issues are disabled here.
-
-A website download button will link directly to the installer asset once it is published. Documentation and activation instructions will be added before the pilot.
+Pilot reports are private. Please use the reporting instructions supplied with your invitation; public issues are disabled here.
