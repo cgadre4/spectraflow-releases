@@ -4,7 +4,7 @@ SpectraFlow is a desktop application for electron energy loss spectroscopy (EELS
 
 ## Windows laptop pilot
 
-**[Download SpectraFlow 1.0.0 for Windows](https://github.com/cgadre4/spectraflow-releases/releases/download/v1.0.0/SpectraFlow-Setup-preview-r2.exe)** — approximately 5.2 MB.
+**[Download SpectraFlow 1.0.1 for Windows](https://github.com/cgadre4/spectraflow-releases/releases/download/v1.0.1/SpectraFlow-Setup-preview.exe)** — approximately 5.5 MB.
 
 Double-click the installer, then launch SpectraFlow Preview from its desktop or Start menu shortcut. The installer scans hardware and downloads the selected CPU or supported Intel XPU runtime. You do not need Python, pip, Codex or development tools.
 
@@ -15,9 +15,9 @@ Double-click the installer, then launch SpectraFlow Preview from its desktop or 
 - Optional automatic bug reporting uses a separately supplied pilot reporting code and sends sanitized reports, including recent actions, to a private repository.
 - Future published updates can prompt you to save work and restart.
 
-This is an initial pilot for installation and hardware testing. See the [release notes](https://github.com/cgadre4/spectraflow-releases/releases/tag/v1.0.0) for details. The other release assets are downloaded automatically; only download the installer yourself.
+This is an initial pilot for installation and hardware testing. See the [release notes](https://github.com/cgadre4/spectraflow-releases/releases/tag/v1.0.1) for details. The other release assets are downloaded automatically; only download the installer yourself.
 
-Installer revision 2 keeps download verification and extraction progress in the original setup window, with safe Cancel and retry. It uses the same verified application and runtime packages. Core Ultra 7 356H currently uses CPU; Intel XPU is enabled only for validated hardware.
+Version 1.0.1 improves activation, themed desktop dialogs and window controls, branded setup, and verified extraction speed. Close SpectraFlow before installing and retry your existing activation key. Core Ultra 7 356H currently uses CPU; Intel XPU is enabled only for validated hardware. The same verified runtime packages are reused. Physical laptop acceptance is still in progress.
 
 ## About this repository
 
